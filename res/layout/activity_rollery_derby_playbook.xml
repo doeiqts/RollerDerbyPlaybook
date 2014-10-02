@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/track"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wftdatrack" >
+
+    <ImageView
+        android:id="@+id/whitejammer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/whitejammer" />
+
+    <ImageView
+        android:id="@+id/whitepivot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/whitepivot" />
+
+    <ImageView
+        android:id="@+id/whiteblocker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/whiteblocker" />
+
+    <ImageView
+        android:id="@+id/whiteblocker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/whiteblocker" />
+
+    <ImageView
+        android:id="@+id/whiteblocker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/whiteblocker" />
+
+    <ImageView
+        android:id="@+id/blackjammer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/blackjammer" />
+
+    <ImageView
+        android:id="@+id/blackpivot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/blackpivot" />
+
+    <ImageView
+        android:id="@+id/blackblocker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/blackblocker" />
+
+    <ImageView
+        android:id="@+id/blackblocker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/blackblocker" />
+
+    <ImageView
+        android:id="@+id/blackblocker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/blackblocker" />
+
+</RelativeLayout>
